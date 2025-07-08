@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa';
-import profilePic from './assets/mansoor.jpeg';
+import profilePic from './assets/profile.png';
 import cv from './assets/cv.pdf';
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import FrontEndLogo from './assets/Front-end-logo.png';
 import Backendlogo from './assets/Backend-logo.png';
-import Fullstacklogo from './assets/fullstack-logo.png';
+import fullstacklogo from './assets/fullstack-logo.png';
 
 const Services = () => {
   return (
@@ -38,7 +38,7 @@ const Services = () => {
           {/* Fullstack */}
           <div className="flex-1 border border-gray-300 hover:border-green-500 p-4 rounded-lg shadow-md hover:scale-110 transition-transform duration-300">
             <div className="flex justify-center mb-4">
-              <img src={Fullstacklogo} alt="Fullstack" className="w-20" />
+              <img src={fullstacklogo} alt="Fullstack" className="w-20" />
             </div>
             <h2 className="font-bold text-xl text-center mb-2">Full-Stack Development</h2>
             <p className="text-gray-700 text-sm text-center">
