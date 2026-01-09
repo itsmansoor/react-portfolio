@@ -52,6 +52,7 @@ const Contact = () => {
             <form onSubmit={submmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <input
+                required
                   className="bg-gray-200 w-full h-12 px-4 border rounded-xl"
                   type="text"
                   name="name"
@@ -61,6 +62,7 @@ const Contact = () => {
                   onChange={(e)=>setName(e.target.value)}
                 />
                 <input
+                required
                   className="bg-gray-200 w-full h-12 px-4 border rounded-xl"
                   type="email"
                   name="email"
@@ -73,6 +75,7 @@ const Contact = () => {
 
               <div className="mb-4">
                 <input
+                required
                   className="bg-gray-200 w-full h-12 px-4 border rounded-xl"
                   type="text"
                   name="subject"
@@ -85,6 +88,7 @@ const Contact = () => {
 
               <div className="mb-4">
                 <textarea
+                required
                   className="bg-gray-200 w-full h-32 px-4 py-2 border rounded-xl resize-none"
                   name="message"
                   id="message"
